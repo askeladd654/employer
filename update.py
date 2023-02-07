@@ -38,15 +38,7 @@ try:
         exit()
 except:
     pass
-
-SERVER_PORT = environ.get('SERVER_PORT', '')
-if len(SERVER_PORT) == 0:
-    SERVER_PORT = 80
     
-BASE_URL = environ.get('BASE_URL', '')
-if len(BASE_URL) == 0:
-    BASE_URL = 'https://supernovapro1.onrender.com'    
-
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 if len(BOT_TOKEN) == 0:
     log_error("BOT_TOKEN variable is missing! Exiting now")
