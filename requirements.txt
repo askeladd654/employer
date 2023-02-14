@@ -21,7 +21,8 @@ pyrogram==2.0.66
 python-dotenv
 python-magic
 python-telegram-bot==13.15
-qbittorrent-api
+qbittorrent-api==2022.11.40
+urllib3==1.26.14
 requests
 telegraph
 tenacity
